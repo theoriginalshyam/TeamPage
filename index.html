@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Page</title>
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id = "body">
+<div id = "top">   
+    <div id = "hamBurger">
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <img class="ui icon icon_image" data-icon="hamburger" src="https://cmsredesign.channeli.in/library/assets/icons/HamBurger.svg" onmouseover="hover(this)" onmouseout="unhover(this)">
+        </a>
+        </div>
+        <div><img src = "members/iitr-logo.png" class = "iitr-logo"></div>
+        <div id = "top-right">
+            <div id = "upper-top-right">
+                <div class = languagechange><span> हिंदी|ENG</span></div>
+                <div class = sizechange>
+                    <img class="ui icon icon_image" data-icon="text_small" src="https://cmsredesign.channeli.in/library/assets/icons/text-small.svg" onmouseover="hover(this)" onmouseout="unhover(this)">
+                    <img class="ui icon icon_image" data-icon="text_medium" src="https://cmsredesign.channeli.in/library/assets/icons/text-medium.svg" onmouseover="hover(this)" onmouseout="unhover(this)">
+                    <img class="ui icon icon_image" data-icon="text_big" src="https://cmsredesign.channeli.in/library/assets/icons/text-big.svg" onmouseover="hover(this)" onmouseout="unhover(this)">
+                </div>
+                <div>
+                    <div class="light-button" onclick="contrast_light()">A</div>
+                    <div class="dark-button" onclick="contrast_dark()">A</div>
+                    </div>
+                <img class="ui icon icon_image" data-icon="search" onclick="open_search()" src="https://cmsredesign.channeli.in/library/assets/icons/search.svg" onmouseover="hover(this)" onmouseout="unhover(this)">
+            </div>
+            <div id = "lower-top-right">
+                <div><pre>CALENDAR     CONTACT US    DIRECTORY</pre></div>
+            </div>
+        </div>
+    </div>
+    <hr class = "navhr">
+    
+    <div id = "navbar">
+
+        <div class="dropdown"><button class = "dropbtn">INSTITUTE <img data-icon="dropdown" height width class="ui icon icon_image" src="https://cmsredesign.channeli.in/library/assets/icons/dropdown.svg"></button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+        </div>
+        <div class="dropdown"><button class = "dropbtn">ADMISSIONS <img data-icon="dropdown" height width class="ui icon icon_image" src="https://cmsredesign.channeli.in/library/assets/icons/dropdown.svg"></button><div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div></div>
+        <div class="dropdown"><button class = "dropbtn">ACADEMICS <img data-icon="dropdown" height width class="ui icon icon_image" src="https://cmsredesign.channeli.in/library/assets/icons/dropdown.svg"></button><div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div></div>
+        <div class="dropdown"><button class = "dropbtn">CAMPUS LIFE <img data-icon="dropdown" height width class="ui icon icon_image" src="https://cmsredesign.channeli.in/library/assets/icons/dropdown.svg"></button><div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div></div>
+        <div class="dropdown"><button class = "dropbtn">DEPARTMENTS <img data-icon="dropdown" height width class="ui icon icon_image" src="https://cmsredesign.channeli.in/library/assets/icons/dropdown.svg"></button><div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div></div>
+        <div class="dropdown"><button class = "dropbtn">RESEARCH <img data-icon="dropdown" height width class="ui icon icon_image" src="https://cmsredesign.channeli.in/library/assets/icons/dropdown.svg"></button><div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div></div>
+        <div class="dropdown"><button class = "dropbtn">CAREERS <img data-icon="dropdown" height width class="ui icon icon_image" src="https://cmsredesign.channeli.in/library/assets/icons/dropdown.svg"></button><div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div></div>
+        <div class="dropdown"><button class = "dropbtn">PLACEMENTS <img data-icon="dropdown" height width class="ui icon icon_image" src="https://cmsredesign.channeli.in/library/assets/icons/dropdown.svg"></button><div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div></div>
+        <div class="dropdown"><button class = "dropbtn">RESOURCES <img data-icon="dropdown" height width class="ui icon icon_image" src="https://cmsredesign.channeli.in/library/assets/icons/dropdown.svg"></button><div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div></div>
+    </div>
+   <div id = "blue-box">
+    <div id = "menuContainer">
+        <div class = "ui navbarVisible flexbox">
+            
+            <div class = menuItem><a href = "#">INSTITUTE</a></div>
+            <div class = menuItem><a href = "#">ADMISSIONS</a></div>
+            <div class = menuItem><a href = "#">ACADEMICS</a></div>
+            <div class = menuItem><a href = "#">CAMPUS LIFE</a></div>
+            <div class = menuItem><a href = "#">DEPARTMENTS</a></div>
+            <div class = menuItem><a href = "#">RESEARCH</a></div>
+            <div class = menuItem><a href = "#">CAREERS</a></div>
+            <div class = menuItem><a href = "#">PLACEMENTS</a></div>
+            <div class = "topmenuchange">
+            <div class = menulangchange>हिंदी|ENG</div>
+            <div>
+                <div class="light-button">A</div>
+                <div class="dark-button">A</div>
+                </div>
+                
+                </div>
+                <div class = sizechange id = "menuszchange">
+                    <img class="ui icon icon_image" data-icon="text_small" src="https://cmsredesign.channeli.in/library/assets/icons/text-small.svg">
+                    <img class="ui icon icon_image" data-icon="text_medium" src="https://cmsredesign.channeli.in/library/assets/icons/text-medium.svg">
+                    <img class="ui icon icon_image" data-icon="text_big" src="https://cmsredesign.channeli.in/library/assets/icons/text-big.svg">
+                </div>
+                
+        </div>
+    </div>
+    <div><a href = #>HOME</a><pre> > </pre><a href = #>TEAM</a></div>
+    <br> <br> <br> <br> <br>
+    <div id = "meettheteam">MEET THE TEAM</div>
+    <br>
+    <div>Get to know the designers behind this website!</div>
+</div>
+   <div id = "intro">
+    Building technology infrastructure for the campus requires the collaborative efforts of a diverse team with complementary skills and expertise. The team plays a crucial role in ensuring the infrastructure's successful development, implementation, and maintenance, which is essential for supporting the campus community's needs and enhancing their overall experience.
+   </div>
+   <div id = "main">
+    <div id = "designer-heading">DESIGNERS</div>
+    <div id = "designer">
+        <div class = designers>
+            <div class = desimg>
+                <img src = "members/rishirajcol.png" alt ="Rishiraj" class = "pics">
+            </div>
+            <div class = desname id = "rishiname">RISHIRAJ SHRIVASTAVA</div>
+            <div class = destitle>Project Lead, III year</div>  
+            <div class = desline><hr></div>
+            <div class = socicon>
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+            </div>
+        </div>
+        <div class = designers>
+            <div class = desimg id = "ansimg">
+                <img src = "members/anihskacol.png" alt ="Anshika" class = "pics">
+            </div>
+            <div class = desname>ANSHIKA ARORA</div>
+            <div class = destitle>Project Lead, III year</div>  
+            <div class = desline><hr></div>
+            <div class = socicon>
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+            </div>
+        </div>
+        <div class = designers>
+            <div class = desimg>
+                <img src = "members/gauricol.png" alt ="Gauri" class = "pics">
+            </div>
+            <div class = desname>GAURI GARG</div>
+            <div class = destitle>Project Lead, III year</div>  
+            <div class = desline><hr></div>
+            <div class = socicon>
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+            </div>
+        </div>
+    </div>
+    <div class = "developer-heading">DEVELOPERS</div>
+    <div id = "designer">
+        <div class = designers>
+            <div class = desimg>
+                <img src = "members/akhilcol.png" alt ="Akhil" class = "pics">
+            </div>
+            <div class = desname>AKHIL PUNIA</div>
+            <div class = destitle>Project Lead, III year</div>  
+            <div class = desline><hr></div>
+            <div class = socicon>
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+            </div>
+        </div>
+        <div class = designers>
+            <div class = desimg>
+                <img src = "members/samratcol.png" alt ="Samrat" class = "pics">
+            </div>
+            <div class = desname>SAMRAT MIDDHA</div>
+            <div class = destitle>Project Lead, III year</div>  
+            <div class = desline><hr></div>
+            <div class = socicon>
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+            </div>
+        </div>
+        <div class = designers>
+            <div class = desimg>
+                <img src = "members/noblecol.png" alt ="Noble" class = "pics">
+            </div>
+            <div class = desname>NOBLE MITTAL</div>
+            <div class = destitle>Project Lead, III year</div>  
+            <div class = desline><hr></div>
+            <div class = socicon>
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+            </div>
+        </div>
+    </div>
+    <div id = "designer">
+        <div class = designers>
+            <div class = desimg>
+                <img src = "members/akhilcol.png" alt ="Akhil" class = "pics">
+            </div>
+            <div class = desname>AKHIL PUNIA</div>
+            <div class = destitle>Project Lead, III year</div>  
+            <div class = desline><hr></div>
+            <div class = socicon>
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+            </div>
+        </div>
+        <div class = designers>
+            <div class = desimg>
+                <img src = "members/samratcol.png" alt ="Samrat" class = "pics">
+            </div>
+            <div class = desname>SAMRAT MIDDHA</div>
+            <div class = destitle>Project Lead, III year</div>  
+            <div class = desline><hr></div>
+            <div class = socicon>
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+            </div>
+        </div>
+        <div class = designers>
+            <div class = desimg>
+                <img src = "members/noblecol.png" alt ="Noble" class = "pics">
+            </div>
+            <div class = desname>NOBLE MITTAL</div>
+            <div class = destitle>Project Lead, III year</div>  
+            <div class = desline><hr></div>
+            <div class = socicon>
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+                <img src = "members/fblogo.png" class = "fbicon">
+            </div>
+        </div>
+    </div>
+   </div>
+   <div id = "end-section">
+    <div id = "connect">
+        <div>Department of Chemical Engineering</div>
+        <div>IIT Roorkee</div>
+        <div><img src = "members/googlemaps.jpg" class = gmaps></div>
+        <div class = "roorkeecontact">
+            <img class="ui icon icon_image caller" data-icon="phone" src="https://cmsredesign.channeli.in/library/assets/icons/phone.svg" onmouseover="hover(this)" onmouseout="unhover(this)"><div>Contact us- 12345678 , 87654321</div></div>
+        <div class = "roorkeecontact"><img class="ui icon icon_image mailer" data-icon="email" src="https://cmsredesign.channeli.in/library/assets/icons/email.svg" onmouseover="hover(this)" onmouseout="unhover(this)"><div>iitrconnect@iitr.ac.in</div></div>
+        <div>
+            <img src = "members/fblogo.png" class = "fbicon">
+            <img src = "members/fblogo.png" class = "fbicon">
+            <img src = "members/fblogo.png" class = "fbicon">
+            <img src = "members/fblogo.png" class = "fbicon">
+            <img src = "members/fblogo.png" class = "fbicon">
+            <img src = "members/fblogo.png" class = "fbicon">
+        </div>
+    </div>
+    <div id = "Explore">
+        <div id = "Explore-heading">Explore</div>
+        <div>Departments</div>
+        <div>Departments</div>
+        <div>Departments</div>
+        <div>Departments</div>
+        <div>Departments</div>
+        <div>Departments</div>
+        <div>Departments</div>
+        
+    </div>
+    <div id = "QuickActions">
+        <div id = "Quick-heading">Quick Actions</div>
+        <div>Apply Online</div>
+        <div>Donate</div>
+        <div>Intranet Portal</div>
+        <div>Webmail</div>
+        <div>Book Guest House</div>
+        <div>Support@IITR</div>
+        <div>Give Feedback</div>
+    </div>
+    <div id = "imglove">
+        <img src = "members/grey-square.png" class = grey-square>
+        <div class = "imgdiv"><div><img class = "ui icon icon_image imgcloud" src = "members/cloud1.png"></div><div>Display Brochure</div></div>
+        <div>Photo Credits: Photography Club, IITR</div>
+        <div class = "imgdiv"><div>Made with </div><div><img class = "ui icon icon_image imgheart" src = "members/heart1.png"></div><div>by:</div></div>
+        <div style = "padding-top:-1rem; margin-top:-0.4rem; border-top:0;">Imformation Management Group, IITR</div>
+    </div>
+   </div>
+   <div id = "footer">
+    <div>Sitemap</div>
+    <div>Privacy Policy</div>
+    <div>Accessibility</div>
+    <div id = "pageview">Total Pageview</div>
+   </div>
+   <div id = "copyright">
+    <div>Copyright  2024,  Institute Computer Centre ,IIT</div>
+   </div>
+   <script>
+    function myFunction() {
+      var x = document.getElementById("menuContainer");
+      if (x.style.display === "flex") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "flex";
+      }
+    }
+    function myfunctions(y) {
+        
+      var x = document.getElementById("menuContainer");
+ if(y.matches){
+    x.style.display = "none";
+  }
+}
+
+var y = window.matchMedia("(min-width: 850px)")
+
+myFunctions(y);
+
+y.addEventListener("change", function() {
+  myFunctions(y);
+});
+var cont = document.getElementById("body");
+        
+        function changeSizeByBtn(size) {
+        
+            // Set value of the parameter as fontSize
+            cont.style.fontSize = "x-small";
+        }
+    </script>
+   </body>
+</html>
